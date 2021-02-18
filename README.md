@@ -4,7 +4,7 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 - GCC 8.3.0
 
 ## Install & Start Env.
-1. Execute docker_set.sh script to build docker image and run container
+1. Execute `docker_set.sh` script to build docker image and run container
     ```
     ./docker_setup.sh
     ```
