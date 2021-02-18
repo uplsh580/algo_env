@@ -4,7 +4,8 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 - GCC 8.3.0
 
 ## Install & Start Env.
-1. Execute `docker_set.sh` script to build docker image and run container
+1. Install **Docker** [link](https://www.docker.com/)
+2. Execute `docker_set.sh` script to build docker image and run container
     ```
     ./docker_setup.sh
     ```
@@ -23,7 +24,7 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 * Q: How to exit from container? <br>
    A: Run `exit` command in container shell.<br>
 
-* Q: When run `docker exec -it algo /bin/bash` command, I meet blow message.
+* Q: When run `docker exec -it algo /bin/bash` command, I meet below message.
     ```
     > docker exec -it algo /bin/bash
     Error response from daemon: Container 3a6c980cfda39555c4ed954c72e7a4bbe166ff1b7acad2386d3fdf5aa4a81e28 is not running
