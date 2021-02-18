@@ -35,7 +35,7 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
     ```
 4. Execute `docker_set.sh` script to build docker image and run container
     ```
-    ./docker_setup.sh
+    ./docker_setup.sh --run
     ```
 2. Check container is created.
     ```
