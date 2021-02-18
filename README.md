@@ -4,14 +4,33 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 - GCC 8.3.0
 
 ## Install & Start Env.
+### Option1. Using Virtual Environment
+1. Clone this repo.
+    ```
+    git clone https://github.com/uplsh580/algo_env.git
+    cd algo_env
+    ```
+2. Create Virtenv
+    ```
+    python -m venv .venv
+    ``` 
+3. Activate virtenv
+    ```
+    . .venv/bin/activate
+    ```
+4. Install python packages
+    ```
+    pip install -r requirement.txt
+    ```
+### Option2. Using Docker
 1. Install **Docker** [link](https://www.docker.com/)
 2. Clone this repo.
     ```
     git clone https://github.com/uplsh580/algo_env.git
+    cd algo_env
     ```
 4. Execute `docker_set.sh` script to build docker image and run container
     ```
-    cd algo_env
     ./docker_setup.sh
     ```
 2. Check container is created.
@@ -25,7 +44,7 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
     ```
     The executed bash is the shell that ran on the algo container.
 
-## Don't be embarrassed.
+#### Don't be embarrassed.
 * Q: How to exit from container? <br>
    A: Run `exit` command in container shell.<br>
 
