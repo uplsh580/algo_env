@@ -1,5 +1,5 @@
 # Algorithms Env.
-This Repo. provides an environment for solving algorithm problems for **BEGINNERS**.
+This Repo. provides an environment to solving algorithm problems for **BEGINNERS**.
 - Python 3.6.10
 - GCC 8.3.0
 
