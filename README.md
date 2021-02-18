@@ -5,8 +5,13 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 
 ## Install & Start Env.
 1. Install **Docker** [link](https://www.docker.com/)
-2. Execute `docker_set.sh` script to build docker image and run container
+2. Clone this repo.
     ```
+    git clone https://github.com/uplsh580/algo_env.git
+    ```
+4. Execute `docker_set.sh` script to build docker image and run container
+    ```
+    cd algo_env
     ./docker_setup.sh
     ```
 2. Check container is created.
