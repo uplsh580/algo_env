@@ -5,7 +5,11 @@ This Repo. provides an environment to solving algorithm problems for **BEGINNERS
 
 ## Install & Start Env.
 ### Option1. Using Virtual Environment
-1. Clone this repo.
+1. Install virtualenv
+    ```
+    pip install virtualenv
+    ```
+3. Clone this repo.
     ```
     git clone https://github.com/uplsh580/algo_env.git
     cd algo_env
