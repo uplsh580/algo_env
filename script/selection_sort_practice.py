@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/11399
-# bigO:
+# bigO: n^2
 def swap (l, a, b):
     temp = l[a]
     l[a] = l[b]
