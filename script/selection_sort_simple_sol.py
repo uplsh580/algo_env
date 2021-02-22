@@ -1,5 +1,10 @@
-# https://www.acmicpc.net/problem/11399
-# bigO: n^2
+# Ploblem: https://www.acmicpc.net/problem/2752
+# [Required] Use the Selection Sort to solve it.
+
+# Solver: Seonghwan Lee
+# Solved Date: 2021-02-22
+# BigO: N^2
+
 def swap (l, a, b):
     temp = l[a]
     l[a] = l[b]
@@ -18,16 +23,6 @@ def selection_sort(n_list):
 
     return n_list
 
-def sol(n_list):
-    sorted_n_list = selection_sort(n_list)
-    waiting_time = 0
-    total_time = 0
-    for t in sorted_n_list:
-        waiting_time = waiting_time+t
-        total_time = total_time + waiting_time
-    return total_time
-
 if __name__ == '__main__':
-    n = int(input())
     n_list = list(map(int,input().split()))
-    print(sol(n_list))
+    print(' '.join(map(str,selection_sort(n_list))))
