@@ -1,4 +1,8 @@
-# https://www.acmicpc.net/problem/4344
+# Ploblem : [평균은 넘겠지] https://www.acmicpc.net/problem/4344
+
+# Solver : Seonghwan Lee
+# Solved Date : 2021-02-19
+# BigO: N
 
 def solution(n, score):
     avg_score = sum(score)/n
