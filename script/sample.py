@@ -1,7 +1,7 @@
 # Ploblem : [평균은 넘겠지] https://www.acmicpc.net/problem/4344
 
-# Solver : 
-# Solved Date : 
+# Solver: 
+# Solved Date: 
 # BigO:
 
 def solution(n, score):
