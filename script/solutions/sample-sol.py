@@ -1,11 +1,9 @@
-# Ploblem : [평균은 넘겠지] https://www.acmicpc.net/problem/4344
-
-# Solver : 
-# Solved Date : 
-# BigO:
+# https://www.acmicpc.net/problem/4344
 
 def solution(n, score):
-    return 0
+    avg_score = sum(score)/n
+    over_s = sum(1 for x in score if x > avg_score)
+    return round((over_s/n) * 100,3)
 
 if __name__ == '__main__':
     c = int(input())
