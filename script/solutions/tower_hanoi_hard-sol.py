@@ -2,7 +2,7 @@
 
 # Solver : Seonghwan Lee
 # Solved Date : 2021-02-25
-# BigO: N^2 (n<=20), N (20<n)
+# BigO: 2^N (n<=20), N (20<n)
 
 pos_1 = 0b100
 pos_2 = 0b010
