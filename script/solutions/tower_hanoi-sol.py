@@ -2,7 +2,7 @@
 
 # Solver : Seonghwan Lee
 # Solved Date : 2021-02-25
-# BigO: N^2
+# BigO: 2^N
 
 pos_1 = 0b100
 pos_2 = 0b010
